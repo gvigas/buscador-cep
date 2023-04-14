@@ -101,3 +101,54 @@
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
 }   
+
+
+@media (max-width: 750px){
+    .Container h1{
+        color: black;
+        font-size: 44px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 3px 8px rgba(99, 99, 99, 0.226);
+        padding: 20px;
+        animation: handle 1.5s;
+        
+    }
+    .pesquisa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 1px 3px 6px rgba(112, 112, 112, 0.336);
+        margin-bottom: 30px;
+        width: 300px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 24px;
+        border-radius: 5px;
+        width: 300px ;
+        border-radius: 20px;   
+        box-shadow: 1px 6px 6px rgba(112, 112, 112, 0.212);
+    }
+    .main h2{
+        padding: 10px;
+        font-size: 1.2em;
+        margin: 10px;
+        letter-spacing: 0.2em;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main span{
+        font-size: 0.7em;
+        margin: 5px;
+        letter-spacing: 2px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }   
+}
